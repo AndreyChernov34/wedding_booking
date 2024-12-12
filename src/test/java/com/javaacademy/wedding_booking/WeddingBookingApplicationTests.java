@@ -1,4 +1,4 @@
-package com.javaacedemy.wedding_booking;
+package com.javaacademy.wedding_booking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

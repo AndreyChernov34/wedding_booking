@@ -1,4 +1,4 @@
-package com.javaacedemy.wedding_booking;
+package com.javaacademy.wedding_booking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class WeddingBookingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WeddingBookingApplication.class, args);
 	}
-
 }
