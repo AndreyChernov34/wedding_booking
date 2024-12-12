@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class WeddingBookingApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(WeddingBookingApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(WeddingBookingApplication.class, args);
+    }
 }

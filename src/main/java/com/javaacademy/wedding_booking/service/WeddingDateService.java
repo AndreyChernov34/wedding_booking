@@ -19,6 +19,8 @@ import java.util.List;
 public class WeddingDateService {
     private final WeddingDateRepository weddingDateRepository;
     private final WeddingDateMapper weddingDateMapper;
+
+    // Год использования календаря задан в property.yaml как 2025.
     @Value("${year}")
     private Integer year;
 
