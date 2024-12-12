@@ -53,5 +53,4 @@ public class WeddingDateService {
     public void save(Integer month, Integer day) {
         weddingDateRepository.save(LocalDate.of(year, month, day), new WeddingDate(month, day));
     }
-
 }

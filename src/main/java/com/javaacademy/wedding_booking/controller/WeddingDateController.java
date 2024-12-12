@@ -6,7 +6,6 @@ import com.javaacademy.wedding_booking.dto.WeddingDateDto;
 import com.javaacademy.wedding_booking.service.WeddingDateService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -43,8 +42,8 @@ public class WeddingDateController {
      * @return количество забронированных дат
      */
     @GetMapping("/month/{month}/free")
-    public ResponseEntity<CountDto> getSumAllWeddingDateOfMonth(@PathVariable Integer month) {
-        return ResponseEntity.ok(weddingDateService.getSumAllWeddingDateOfMonth(month));
+    public CountDto getSumAllWeddingDateOfMonth(@PathVariable Integer month) {
+        return weddingDateService.getSumAllWeddingDateOfMonth(month);
     }
 
     /**
